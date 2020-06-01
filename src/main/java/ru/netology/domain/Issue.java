@@ -13,8 +13,8 @@ import java.util.Set;
 public class Issue implements Comparable<Issue> {
     private int id;
     private boolean isOpen;
-    private String Author;
-    private String Assignee;
+    private String author;
+    private String assignee;
     private int openedDaysAgo;
     private Set<String> issueLabels = new HashSet<>();
     private Set<String> issueAssignee = new HashSet<>();
